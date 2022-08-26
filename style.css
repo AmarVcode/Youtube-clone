@@ -1,0 +1,91 @@
+
+
+#top-navbar{
+    display: flex;
+
+}
+
+#logo{
+    width:9%;
+    display: flex;
+}
+
+#logo>img{
+    width:100%;
+    
+}
+
+#menu{
+    height: 5vh;
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+#searchbar{
+    width: fit-content;
+    margin: auto;
+     width:100vh;
+     display: flex;
+}
+
+#searchbar>input{
+    width: 80vh;
+    height: 3vh;
+    font-size: 3vh;
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+#searchbar>img{
+   padding: 5px;
+    height:4vh;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#mic{
+    border-radius: 50%;
+    margin: 1px;
+    margin-left: 10px;
+}
+
+#infobar{
+    display: flex;
+    width: 11%;
+    gap: 10px;
+}
+
+#infobar>img{
+    width: 6vh;
+    height: 4vh;
+    margin: auto 5px;
+}
+
+#infobar>img:nth-child(3){
+    border-radius: 50%;
+}
+
+#bottom-navbar{
+    display: flex;
+    float: right;
+    gap: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#bottom-navbar>button{
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    font-size: 13px;
+    color: black;
+
+    transition: 1s;
+} 
+
+
+#bottom-navbar>button:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+} 
