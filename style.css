@@ -60,6 +60,7 @@
     display: flex;
     width: 11%;
     gap: 10px;
+    margin-right: 4vh;
 }
 
 #infobar>img{
@@ -75,7 +76,7 @@
 #bottom-navbar{
     display: flex;
     float: right;
-    gap: 20px;
+    gap: 2vh;
     padding: 10px;
     margin-right: 20px;
     width: 75%;
@@ -83,26 +84,75 @@
 }
 
 #bottom-navbar>button{
-    padding: 9px;
+    padding: 1vh;
     border-radius: 20px;
     border: 1px solid rgba(128, 128, 128, 0.336);
-    font-size: 13px;
+    font-size: 2vh;
     color: black;
-
-    transition: 1s;
+    font-weight: normal;
+    transition: 300ms;
 } 
 
 
 #bottom-navbar>button:hover{
     cursor: pointer;
-    color: white;
-    background: black;
+    background: rgba(0, 0, 0, 0.11);
 } 
 
-iframe{
+#sidebarframe{
     position: fixed;
     height: 90%;
     z-index: 11;
-    margin-top: 60px;
+    bottom: 1vh;
     width: 20%;
+    background-color: white;
+}
+
+
+#vdata{
+    display: grid;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    margin-left: 20%;
+    grid-template-columns: 24% 24% 24% 24%;
+    padding: 2vh;
+    gap: 1.5%;
+    
+}
+
+#sidebr{
+    display: flex;
+    width: 100%;
+    margin-top: 17vh;
+}
+
+.vbox>iframe{
+    width: 100%;
+}
+
+.vbox{
+    transition: 1s;
+    height: fit-content;
+    background: white;
+}
+
+.vbox:hover{
+    transform: scale(1.4);
+    z-index: 20;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.vbox>h1{
+    font-size: 2vh;
+    margin: 10px;
+}
+
+.vbox>p{
+    font-size: 2vh;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+body{
+    overflow: hidden;
 }
